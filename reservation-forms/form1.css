@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col input{
+    width: 25%;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+.col select{
+    width: 13%;
+}
+
+.submit-button input{
+    width: 20%;
+    border: none;
+    background-color: #ccc;
+    border-radius: 2px;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.checkbox input{
+    width: 15px;
+    margin: 0;
+}
+
+.radio-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-button input{
+    width: 15px;
+    margin: 0;
+}

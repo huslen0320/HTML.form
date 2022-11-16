@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Welcome to the 24x7 FitnessClub : Courts reservation Page!!</h3>
+        </div>
+        <div class="reservation">
+            <fieldset>
+                <legend>Member Demographics</legend>
+                <div class="col">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="FullName">
+                </div>
+                <div class="col">
+                    <p>Are you a Member?</p>
+                    <input type="radio" name="member" id="member">
+                    <label for="member">Member</label>
+                    <input type="radio" name="non-member" id="non-member">
+                    <label for="non-member">Non-member</label>
+                </div>
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+            </fieldset>
+            <div class="col">
+                <label for="select">Facility</label>
+                <select name="facility" id="facility">
+                    <option value="badminton">Badminton</option>
+                    <option value="gym">GYM</option>
+                    <option value="swimpool">Swim-pool</option>
+                    <option value="zumba">Zumba</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="date-time"></label>
+                <input type="datetime-local" name="date-time" id="date-time">
+            </div>
+            <div class="col">
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">I agree to the club's reservation policy</label>
+            </div>
+            <div class="col">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+        </div>
+
+</body>
+</html>
